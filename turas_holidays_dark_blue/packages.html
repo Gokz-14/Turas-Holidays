@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages - Turas Holidays</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a1d3a;
+            color: #e0e6ed;
+            text-align: center;
+        }
+        header {
+            background-color: #0d47a1;
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .package-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 40px;
+        }
+        .package {
+            background: #12294d;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .package:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #e0e6ed;
+            color: white;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Packages</h1>
+    </header>
+    <section class="package-grid">
+        <div class="package">
+            <h3><a href="maldives.html" target="_blank">Maldives</a></h3>
+            <p>7-day all-inclusive package with luxury stays.</p>
+        </div>
+        <div class="package">
+            <h3><a href="paris.html" target="_blank">Paris</a></h3>
+            <p>Experience the romantic city of Paris for 5 days.</p>
+        </div>
+        <div class="package">
+            <h3><a href="dubai.html" target="_blank">Dubai</a></h3>
+            <p>Enjoy the glamour of Dubai with a 5-day adventure.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Turas Holidays. All rights reserved.</p>
+    </footer>
+</body>
+</html>

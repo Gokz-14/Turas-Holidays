@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Turas Holidays</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a1d3a;
+            color: #e0e6ed;
+            text-align: center;
+        }
+
+        header {
+            background-color: #0d47a1;
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .destination-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+        }
+
+        .destination {
+            background: #12294d;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: left;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .destination img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .destination h3 {
+            font-size: 1.8em;
+            margin: 10px 0;
+        }
+
+        .destination p {
+            font-size: 1.1em;
+            color: #e0e6ed;
+        }
+
+        footer {
+            background-color: #e0e6ed;
+            color: white;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header {
+                padding: 10px 0;
+            }
+
+            .destination-grid {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .destination {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top Destinations</h1>
+    </header>
+    <section class="destination-grid">
+        <div class="destination">
+            <img src="https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Maldives">
+            <h3>Maldives</h3>
+            <p>Experience the beauty of crystal-clear waters and luxury resorts.</p>
+        </div>
+        <div class="destination">
+            <img src="https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Paris">
+            <h3>Paris</h3>
+            <p>Enjoy the romantic atmosphere of the city of love.</p>
+        </div>
+        <div class="destination">
+            <img src="https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Dubai">
+            <h3>Dubai</h3>
+            <p>Explore the modern marvels and cultural heritage of Dubai.</p>
+        </div>
+        <div class="destination">
+            <img src="https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bali">
+            <h3>Bali</h3>
+            <p>Discover the vibrant culture and breathtaking landscapes of this tropical paradise.</p>
+        </div>
+        <div class="destination">
+            <img src="https://images.pexels.com/photos/64271/queen-of-liberty-statue-of-liberty-new-york-liberty-statue-64271.jpeg?auto=compress&cs=tinysrgb&w=600" alt="New York">
+            <h3>New York</h3>
+            <p>Experience the energy and excitement of the Big Apple, from Broadway to Central Park.</p>
+        </div>
+        <div class="destination">
+            <img src="https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tokyo">
+            <h3>Tokyo</h3>
+            <p>Delve into the rich blend of tradition and modernity in Japan's buzzing capital.</p>
+        </div>
+        <div class="destination">
+            <img src="https://images.pexels.com/photos/2928058/pexels-photo-2928058.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rome">
+            <h3>Rome</h3>
+            <p>Walk through history in the Eternal City, from the Colosseum to the Vatican.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Turas Holidays. All rights reserved.</p>
+    </footer>
+</body>
+</html>
